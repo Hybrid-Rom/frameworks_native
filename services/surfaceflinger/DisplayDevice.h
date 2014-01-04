@@ -173,6 +173,7 @@ public:
      */
     uint32_t getPageFlipCount() const;
     void dump(String8& result) const;
+    int getHardwareOrientation();
 
 #ifdef QCOM_BSP
     /* To set egl atribute, EGL_SWAP_BEHAVIOR value
